@@ -1,3 +1,11 @@
+'''
+Возраст
+
+    Попросить пользователя ввести возраст.
+    По возрасту определить, чем он должен заниматься: учиться в детском саду, школе, ВУЗе или работать.
+    Вывести занятие на экран.
+'''
+
 while  True:
 	age = int(input("Enter your age "))
 	print(age)
@@ -11,4 +19,3 @@ while  True:
 		print("go to work, mister")
 	else:
 		print("please, enter your age between 1 and 65")
-		
