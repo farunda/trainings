@@ -1,4 +1,11 @@
-#!/Library/Frameworks/Python.framework/Versions/3.4/bin/python3
+'''
+Написать функцию ask_user() чтобы с помощью input() спрашивать пользователя “Как дела?”,
+пока он не ответит “Хорошо”
+При помощи функции get_answer() отвечать на вопросы пользователя в ask_user(), 
+пока он не скажет “Пока!”
+
+плюс добавлена обработка keyboard interrupt в функции ask_user()
+'''
 
 answers = {'hi':'and you too!', 
            'how are you':'i\'m fine!',
